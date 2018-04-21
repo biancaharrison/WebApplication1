@@ -18,6 +18,12 @@
   <ItemGroup>
     <Content Remove="wwwroot\favicon.ico" />
     <Content Remove="wwwroot\img\origprofile.png" />
+    <Content Remove="wwwroot\img\portfolio\cabin.png" />
+    <Content Remove="wwwroot\img\portfolio\cake.png" />
+    <Content Remove="wwwroot\img\portfolio\circus.png" />
+    <Content Remove="wwwroot\img\portfolio\game.png" />
+    <Content Remove="wwwroot\img\portfolio\safe.png" />
+    <Content Remove="wwwroot\img\portfolio\submarine.png" />
   </ItemGroup>
 
   <ItemGroup>
