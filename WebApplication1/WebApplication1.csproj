@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\img\origprofile.png" />
   </ItemGroup>
 
   <ItemGroup>
