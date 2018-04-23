@@ -21,6 +21,7 @@ namespace BiancasBookshelfMVC.Controllers
             return Redirect("http://m7565.myubam.com/993581");
         }
 
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
