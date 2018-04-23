@@ -15,18 +15,10 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public IActionResult About()
+        [Route("party-with-casey")]
+        public IActionResult Party()
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
+            return Redirect("http://m7565.myubam.com/993581");
         }
 
         public IActionResult Error()
