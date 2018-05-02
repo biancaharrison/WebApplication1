@@ -15,10 +15,10 @@ namespace BiancasBookshelfMVC.Controllers
             return View();
         }
 
-        [Route("party-with-casey")]
+        [Route("littlesunshine")]
         public IActionResult Party()
         {
-            return Redirect("http://m7565.myubam.com/993581");
+            return Redirect("http://m7565.myubam.com/994289");
         }
 
 
